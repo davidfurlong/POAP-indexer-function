@@ -1,0 +1,29 @@
+{
+    "name": "poap-indexer",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ponder indexer for POAP events on Base blockchain",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ponder dev",
+        "start": "ponder start",
+        "start:prod": "PONDER_LOG_LEVEL=error ponder start",
+        "codegen": "ponder codegen"
+    },
+    "dependencies": {
+        "ponder": "^0.12.12",
+        "viem": "^2.34.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.4"
+    },
+    "keywords": [
+        "ponder",
+        "indexer",
+        "poap",
+        "base"
+    ],
+    "author": "",
+    "license": "MIT"
+}
